@@ -1,0 +1,114 @@
+.info-container {
+  background-color: #191e1f;
+  color: #fff;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  height: 500px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.info-container .contact-nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px 0;
+  text-align: center;
+}
+.info-container .contact-nav div {
+  flex: 1;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.info-container .contact-nav div i {
+  font-size: 28px;
+}
+.info-container .contact-nav div:hover {
+  color: #f89646;
+  cursor: pointer;
+}
+.info-container .info-top {
+  padding: 45px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.info-container h4 {
+  position: relative;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+.info-container .info-links .info-links-menu {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+.info-container .info-links .info-links-menu a {
+  color: #fff;
+}
+.info-container .info-links .info-links-menu a:hover,
+.info-container .info-links .info-links_menu a.active {
+  color: #f89646;
+}
+.info-container .info-form input {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  height: 45px;
+  margin-bottom: 15px;
+  padding-left: 25px;
+  background-color: #eaeaea;
+  outline: none;
+  color: #101010;
+}
+.info-container .info-form .newsletter-btn {
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 45px;
+  background-color: #6bb7be;
+  color: #fff;
+  border-radius: 0px;
+  border: 1px solid #6bb7be;
+  transition: all 0.2s;
+}
+.info-container .info-form .newsletter-btn:hover {
+  background-color: transparent;
+  color: #6bb7be;
+}
+.info-container .social-box {
+  width: 100%;
+  display: flex;
+  margin-top: 25px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.info-container .social-box a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #6bb7be;
+  color: #6bb7be;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.info-container .social-box a:hover {
+  color: #f89646;
+  border-color: #f89646;
+}
+.contact-nav .contact-nav-icon {
+  margin-right: 15px;
+}
+.footer-container {
+  position: relative;
+  text-align: center;
+}
+.footer-container p {
+  color: #000;
+  padding: 25px 0;
+  margin: 0;
+  font-size: 14px;
+}

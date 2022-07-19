@@ -1,0 +1,8 @@
+.about-container {
+  background-color: #f9fafa;
+  align-items: center;
+  display: flex;
+  margin-right: 35px;
+  margin-left: 35px;
+  height: 500px;
+}

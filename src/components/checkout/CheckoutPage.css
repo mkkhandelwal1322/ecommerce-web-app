@@ -1,0 +1,42 @@
+.checkout-section {
+  position: relative;
+  background-color: #f9fafa;
+  padding-top: 35px;
+  padding-bottom: 75px;
+  height: 580px;
+  margin-left: 35px;
+  margin-right: 35px;
+  align-items: center;
+  margin-top: 60px;
+}
+.checkout-form-body {
+  display: grid;
+  grid-template-columns: 1.75fr 1.25fr;
+}
+.checkout-order-summary {
+  border: 1px solid #6bb7be;
+  margin-right: 35px;
+  padding: 20px;
+  min-height: 200px;
+  max-height: 400px;
+}
+.checkout-order-summary-heading {
+  margin-bottom: 20px;
+}
+.order-summary-div {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  align-items: center;
+  margin: 20px;
+}
+.order-summary-img {
+  width: 80px;
+  height: 80px;
+}
+.order-summary-price {
+  margin-left: 60px;
+}
+.order-summary-total {
+  margin-top: 10px;
+  text-align: right;
+}

@@ -1,0 +1,16 @@
+.signup-section {
+  position: relative;
+  background-color: #f9fafa;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  width: 50%;
+  align-items: center;
+  margin: 50px auto;
+}
+.signup-section span {
+  margin-left: 35px;
+}
+a {
+  color: #101010;
+  text-decoration: none;
+}
